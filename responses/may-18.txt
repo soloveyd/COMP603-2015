@@ -1,6 +1,8 @@
 What does it mean for two sets to be disjoint?
-
+Two sets that have no common elements.
 
 
 What is the union of two sets?
+All of the values that belong to both sets in one super set.
 
+-Dian Solovey
