@@ -1,0 +1,16 @@
+1. I chose OpenJDK
+
+2. Tokens/identifiers in: jdk7u-jdk/src/share/classes/sun/tools/java/Constants.java
+Parser: jdk7u-jdk/src/share/classes/com/sun/tools/example/debug/expr/ExpressionParserConstants.java & most of the contents in jdk7u-jdk/src/share/classes/javax/swing/text/html/parser/
+AST: jdk7u-jdk/src/share/classes/sun/reflect/generics/tree/Tree.java & jdk7u-jdk/src/share/classes/sun/reflect/generics/parser/SignatureParser.java
+Optimization: jdk7u-jdk/make/java/fdlibm/Makefile
+Code Generation: jdk7u-jdk/src/share/classes/sun/misc/ProxyGenerator.java
+
+3. In the jdk7u-jdk/test/sun/security/provider/PolicyParser/PrincipalExpansionError.java file the following is in the code:
+    } else {
+    	// i don't know???
+    	System.out.println("what happened?");
+    	pae.printStackTrace();
+    }
+
+4. I noticed there was a whole folder called "test". Inside I found some code that I don't think is part of the compiler process but rather it is used to see if certain parts of the compiler work when they are run.
